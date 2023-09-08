@@ -1,0 +1,14 @@
+
+    .login{
+      cursor:pointer;
+      color: white;
+      font-size: 20px;
+      border: solid 0.5px;
+      border-radius: 5px;
+      padding: 5%;
+
+      &:hover{
+        background-color: #1450A3;
+        
+      }
+    }

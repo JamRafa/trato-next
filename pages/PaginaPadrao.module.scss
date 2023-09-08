@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  &-outlet {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+  }
+}

@@ -1,0 +1,19 @@
+@import './../../styles/breakpoints.scss';
+
+.topoTodo{
+  background-image: url('/assets/fundo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  .header {
+    padding: 150px 110px 90px 110px;
+    position: relative;
+    @media(max-width: $tablet) {
+      padding-top: 220px;
+    }
+    @media(max-width: $mobile-sm) {
+      padding: 250px 50px 100px 50px;
+    }
+  }
+}
